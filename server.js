@@ -5,7 +5,7 @@ const path = require('path');
 
 const PORT = process.env.PORT || 3000;
 const ROOT = __dirname;
-const PUBLIC = new Set(['index.html', 'style.css', 'script.js', 'creative.css', 'midnight.css', 'interactive.css', 'interactive.js', 'creative.js', 'Shahar_Banu_Software_Engineer.pdf']);
+const PUBLIC = new Set(['index.html', 'style.css', 'script.js', 'creative.css', 'midnight.css', 'interactive.css', 'interactive.js', 'hero.css', 'hero.js', 'creative.js', 'Shahar_Banu_Software_Engineer.pdf']);
 const TYPES = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8', '.pdf': 'application/pdf'

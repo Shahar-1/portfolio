@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="creative.css">
   <link rel="stylesheet" href="midnight.css">
   <link rel="stylesheet" href="interactive.css">
+  <link rel="stylesheet" href="hero.css">
   <script>
     try {
       document.documentElement.setAttribute('data-theme', 'dark');
@@ -47,9 +48,11 @@
 
   <!-- HERO -->
   <section class="hero wrap">
-    <div class="hero-text">
+    <div class="hero-title">
       <p class="hello">Hello, I'm</p>
       <h1>Shahar <span class="scribble">Banu<svg viewBox="0 0 200 14" preserveAspectRatio="none" aria-hidden="true"><path d="M2 9 C 40 2, 70 13, 110 6 S 170 4, 198 9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg></span></h1>
+    </div>
+    <div class="hero-text">
       <p class="lead">I'm a software engineer who loves turning tangled ideas into interfaces that feel simple and kind to use. I build for the web and mobile with React, Next.js and TypeScript.</p>
       <p class="typing">I build <span id="typed">friendly interfaces</span><span class="caret" aria-hidden="true"></span></p>
       <div class="cta">
@@ -57,13 +60,19 @@
         <a class="btn" href="Shahar_Banu_Software_Engineer.pdf" download>Download résumé</a>
       </div>
     </div>
-    <div class="hero-art" aria-hidden="true">
-      <div class="blob"></div><div class="ring"></div><div class="blob b2"></div>
-      <div class="editor"><div class="ed-bar"><i></i><i></i><i></i><span>shahar.ts</span></div><pre id="code"></pre></div>
-      <span class="sticker s1">React</span>
-      <span class="sticker s2">Next.js</span>
-      <span class="sticker s3">TypeScript</span>
-      <span class="note">psst… click the code ✨</span>
+    <div class="hero-art">
+      <div class="blob" aria-hidden="true"></div><div class="ring" aria-hidden="true"></div><div class="blob b2" aria-hidden="true"></div>
+      <div class="editor terminal" role="region" aria-label="Interactive terminal about Shahar">
+        <div class="ed-bar"><i></i><i></i><i></i><span>shahar@portfolio: ~</span></div>
+        <div class="term-body" id="term-body">
+          <div id="term-out" role="log" aria-live="polite"></div>
+          <label class="term-line"><span class="ps1" aria-hidden="true">$</span><input id="term-in" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="type help" aria-label="Type a command, for example help"></label>
+        </div>
+      </div>
+      <span class="sticker s1" aria-hidden="true">React</span>
+      <span class="sticker s2" aria-hidden="true">Next.js</span>
+      <span class="sticker s3" aria-hidden="true">TypeScript</span>
+      <span class="note" aria-hidden="true">psst… try typing help ✨</span>
     </div>
   </section>
 
@@ -258,5 +267,6 @@
 <script src="script.js"></script>
 <script src="creative.js"></script>
 <script src="interactive.js"></script>
+<script src="hero.js"></script>
 </body>
 </html>

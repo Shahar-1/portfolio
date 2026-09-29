@@ -127,6 +127,7 @@
       art.addEventListener('pointerleave', rest);
     }
     art.addEventListener('pointerdown', function (e) {
+      if (e.target.closest('.terminal')) return;
       window.__burst(e.clientX, e.clientY);
       art.classList.remove('spark'); void art.offsetWidth; art.classList.add('spark');
     });
