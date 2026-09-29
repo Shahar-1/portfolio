@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shahar Banu · Software Engineer</title>
+  <meta name="description" content="Shahar Banu is a software engineer who builds friendly, fast web and mobile interfaces with React, Next.js and TypeScript.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="creative.css">
+  <link rel="stylesheet" href="midnight.css">
+  <link rel="stylesheet" href="interactive.css">
+  <script>
+    try {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      if (!matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('loading');
+    } catch (e) {}
+  </script>
+</head>
+<body>
+<div id="loader" aria-hidden="true"><div class="ld-hello">Hello<small>I'm Shahar</small></div><div class="ld-pill"><span>LOADING</span><b id="ld-pct">0%</b><em></em></div></div>
+<canvas id="bg" aria-hidden="true"></canvas>
+<div class="progress" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="logo" href="#top" aria-label="Shahar Banu, home">Shahar<span>.</span></a>
+  <nav aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Say hi</a>
+  </nav>
+  <div class="swatches" role="group" aria-label="Accent colour">
+    <button data-a="violet" style="--s:#8b7bff" aria-label="Violet" aria-pressed="true"></button>
+    <button data-a="cyan" style="--s:#5cc8ff" aria-label="Cyan" aria-pressed="false"></button>
+    <button data-a="pink" style="--s:#ff6ba6" aria-label="Pink" aria-pressed="false"></button>
+    <button data-a="mint" style="--s:#2fe3c2" aria-label="Mint" aria-pressed="false"></button>
+    <button data-a="amber" style="--s:#ffd166" aria-label="Amber" aria-pressed="false"></button>
+  </div>
+  <button class="kbd" id="open-pal" aria-label="Open command palette">Ctrl K</button>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div class="hero-text">
+      <p class="hello">Hello, I'm</p>
+      <h1>Shahar <span class="scribble">Banu<svg viewBox="0 0 200 14" preserveAspectRatio="none" aria-hidden="true"><path d="M2 9 C 40 2, 70 13, 110 6 S 170 4, 198 9" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/></svg></span></h1>
+      <p class="lead">I'm a software engineer who loves turning tangled ideas into interfaces that feel simple and kind to use. I build for the web and mobile with React, Next.js and TypeScript.</p>
+      <p class="typing">I build <span id="typed">friendly interfaces</span><span class="caret" aria-hidden="true"></span></p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Let's talk</a>
+        <a class="btn" href="Shahar_Banu_Software_Engineer.pdf" download>Download résumé</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="blob"></div><div class="ring"></div><div class="blob b2"></div>
+      <div class="editor"><div class="ed-bar"><i></i><i></i><i></i><span>shahar.ts</span></div><pre id="code"></pre></div>
+      <span class="sticker s1">React</span>
+      <span class="sticker s2">Next.js</span>
+      <span class="sticker s3">TypeScript</span>
+      <span class="note">psst… click the code ✨</span>
+    </div>
+  </section>
+
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true"><div class="track"><span>React</span><i>✦</i><span>Next.js</span><i>✦</i><span>TypeScript</span><i>✦</i><span>React Native</span><i>✦</i><span>Node.js</span><i>✦</i><span>Tailwind CSS</span><i>✦</i><span>JavaScript</span><i>✦</i><span>Cypress</span><i>✦</i><span>Figma</span><i>✦</i><span>AWS</span><i>✦</i><span>Claude Code</span><i>✦</i><span>SASS</span><i>✦</i><span>React</span><i>✦</i><span>Next.js</span><i>✦</i><span>TypeScript</span><i>✦</i><span>React Native</span><i>✦</i><span>Node.js</span><i>✦</i><span>Tailwind CSS</span><i>✦</i><span>JavaScript</span><i>✦</i><span>Cypress</span><i>✦</i><span>Figma</span><i>✦</i><span>AWS</span><i>✦</i><span>Claude Code</span><i>✦</i><span>SASS</span><i>✦</i></div></div>
+
+
+  <!-- ABOUT -->
+  <section id="about" class="wrap about reveal">
+    <h2><span class="tag">01</span> A little about me</h2>
+    <div class="about-grid">
+      <div class="prose">
+        <p>I studied Electronics and Communication Engineering, then fell for the moment when a screen you built actually helps someone. Since then I've been writing front-end code full time.</p>
+        <p>These days at <strong>IBIL Solutions</strong> I build web and mobile apps: HR platforms, telehealth for children, and a marketplace. I care about clean, maintainable code, clear documentation, and working closely with designers, backend developers and product managers so what we ship really works for people.</p>
+        <p>I also lean on AI tools like Claude Code and Cursor in my daily work, and I've built LLM-powered features myself. I like tools that give me more time for the thoughtful parts.</p>
+      </div>
+      <aside class="card fun">
+        <h3>Quick facts</h3>
+        <ul>
+          <li><b>Education</b> B.Tech, Electronics &amp; Communication (CGPA 8.35)</li>
+          <li><b>Open to</b> opportunities anywhere, with a team that values craft and learning</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="work" class="wrap reveal">
+    <h2><span class="tag">02</span> Where I've worked</h2>
+    <ol class="timeline">
+      <li>
+        <span class="dot"></span>
+        <div class="card">
+          <div class="row"><h3>Software Engineer</h3><time>Mar 2023 – Present</time></div>
+          <p class="org">IBIL Solutions</p>
+          <ul>
+            <li>Build responsive websites and web apps with semantic HTML, React, TypeScript, Next.js, SCSS and CSS.</li>
+            <li>Design and wire up UI components, and keep the code clean and easy to maintain.</li>
+            <li>Work with backend developers, designers and product managers to keep things usable and technically sound.</li>
+            <li>Led a team of 5 through the final phase of a project, overseeing front-end development.</li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <span class="dot"></span>
+        <div class="card">
+          <div class="row"><h3>Junior Software Developer</h3><time>Oct 2022 – Mar 2023</time></div>
+          <p class="org">AIMS Solutions Pvt Ltd</p>
+          <ul>
+            <li>Contributed to web page development and their functionality.</li>
+            <li>Helped create and monitor admin-handling pages using C#, ASP.NET and SAP objects.</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="wrap reveal">
+    <h2><span class="tag">03</span> Things I've built</h2>
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button class="chip on" data-filter="all">All</button>
+      <button class="chip" data-filter="web">Web</button>
+      <button class="chip" data-filter="mobile">Mobile</button>
+      <button class="chip" data-filter="ai">AI</button>
+      <button class="chip" data-filter="fullstack">Full-stack</button>
+    </div>
+    <p class="hint">Tip: click any project to open the details.</p>
+    <div class="projects">
+
+      <article class="card project" data-tags="web mobile ai" tabindex="0" role="button">
+        <div class="shot wp" aria-hidden="true"><div class="bars"><i style="--h:45%;--d:0s"></i><i style="--h:80%;--d:.3s"></i><i style="--h:60%;--d:.6s"></i><i style="--h:92%;--d:.9s"></i><i style="--h:55%;--d:1.2s"></i></div><div class="rows"><u></u><u></u><u></u><u></u></div></div>
+        <p class="kind">HR &amp; workforce · IBIL Solutions</p>
+        <h3>WorkPlus</h3>
+        <p>An employee management platform covering attendance, leave, approvals and timesheets on web and mobile.</p>
+        <ul>
+          <li>Worked on an AI feature: upload a weekly timesheet screenshot and OCR plus an LLM fills in the entries.</li>
+          <li>Wrote the internal wiki documenting workflows and specs, for collaboration and onboarding.</li>
+        </ul>
+        <p class="stack"><span>React</span><span>Next.js</span><span>TypeScript</span><span>Tailwind</span><span>React Native</span></p>
+      </article>
+
+      <article class="card project" data-tags="web mobile" tabindex="0" role="button">
+        <div class="shot nd" aria-hidden="true"><div class="tile on"></div><div class="tile"></div><span class="pay">Pay</span></div>
+        <p class="kind">Health &amp; care · IBIL Solutions</p>
+        <h3>NIDD</h3>
+        <p>A consultation platform supporting children with disabilities, with one app for parents and guardians and another for care providers.</p>
+        <ul>
+          <li>Integrated the Vonage Video SDK for live video consultations.</li>
+          <li>Added Stripe payments for booking sessions and managing invoices.</li>
+        </ul>
+        <p class="stack"><span>Next.js</span><span>TypeScript</span><span>Tailwind</span><span>React Native</span></p>
+      </article>
+
+      <article class="card project" data-tags="web" tabindex="0" role="button">
+        <div class="shot gx" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <p class="kind">Marketplace · IBIL Solutions</p>
+        <h3>GEMEX</h3>
+        <p>A platform for the medical cannabis market in the USA, with account creation, business, community and admin modules.</p>
+        <ul>
+          <li>Built a UI kit for consistent design and tested end-to-end with Cypress.</li>
+          <li>Led 5 developers in the final phase and delivered on time, with 95% client satisfaction.</li>
+        </ul>
+        <p class="stack"><span>Next.js</span><span>TypeScript</span><span>SASS</span><span>Cypress</span></p>
+      </article>
+
+      <article class="card project" data-tags="web fullstack" tabindex="0" role="button">
+        <div class="shot lh" aria-hidden="true"><div class="gauge"><b>−20%</b></div><div class="stats2"><span>Load time</span><span>Performance +15%</span><span>UI bugs −30%</span></div></div>
+        <p class="kind">Large-scale web app · IBIL Solutions</p>
+        <h3>LIIIGHTHOUSE</h3>
+        <p>Led front-end development for a big full-stack product.</p>
+        <ul>
+          <li>Improved page load times by 20% through optimized code and resource management.</li>
+          <li>Lifted platform performance by 15% and cut UI bugs by 30% with thorough testing.</li>
+        </ul>
+        <p class="stack"><span>Next.js</span><span>React</span><span>TypeScript</span><span>AWS</span></p>
+      </article>
+
+      <article class="card project small" data-tags="web" tabindex="0" role="button">
+        <p class="kind">IBIL Solutions</p>
+        <h3>Haven</h3>
+        <p>A responsive website, kept stable with unit tests and hands-on operational support.</p>
+        <p class="stack"><span>React</span><span>JavaScript</span><span>Bootstrap</span></p>
+      </article>
+
+      <article class="card project small" data-tags="fullstack" tabindex="0" role="button">
+        <p class="kind">AIMS</p>
+        <h3>Billing Software</h3>
+        <p>A secure billing solution, with full-stack work and database management.</p>
+        <p class="stack"><span>C#</span><span>.NET</span><span>MS SQL</span></p>
+      </article>
+
+      <article class="card project small" data-tags="web" tabindex="0" role="button">
+        <p class="kind">AIMS</p>
+        <h3>Care</h3>
+        <p>A responsive website that improved mobile compatibility by 40%. I also helped with integrations and cut support tickets by 15%.</p>
+        <p class="stack"><span>React</span><span>JavaScript</span><span>CSS</span></p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="wrap reveal">
+    <h2><span class="tag">04</span> What's in my toolbox</h2>
+    <div class="skills">
+      <div class="card"><h3>Languages</h3><p class="chips"><span>JavaScript</span><span>TypeScript</span><span>C#</span><span>Python</span></p></div>
+      <div class="card"><h3>Web</h3><p class="chips"><span>React</span><span>Next.js</span><span>React Native</span><span>Tailwind CSS</span><span>SASS</span><span>Bootstrap</span><span>ReactStrap</span><span>Node.js</span><span>ASP.NET</span><span>HTML &amp; CSS</span></p></div>
+      <div class="card"><h3>AI-assisted development</h3><p class="chips"><span>Claude Code</span><span>Cursor</span><span>v0</span><span>LLM integration</span><span>Prompt engineering</span></p></div>
+      <div class="card"><h3>Tools &amp; data</h3><p class="chips"><span>Git</span><span>Bitbucket</span><span>Jira</span><span>Figma</span><span>Cypress</span><span>VS Code</span><span>MS SQL</span><span>Zoho</span></p></div>
+      <div class="card wide"><h3>How I work</h3><p class="chips soft"><span>Leadership &amp; collaboration</span><span>Problem-solving</span><span>Adaptability</span><span>Project management</span><span>Quality assurance</span><span>Continuous improvement</span></p></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="wrap contact reveal">
+    <h2><span class="tag">05</span> Say hello</h2>
+    <div class="card big">
+      <p class="handwritten">Have a project, a role, or just a question?</p>
+      <p>I'd love to hear about it. The quickest way to reach me is by email.</p>
+      <p class="mail"><a href="mailto:shaharbanu.h1@gmail.com">shaharbanu.h1@gmail.com</a></p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:shaharbanu.h1@gmail.com">Send an email</a>
+        <a class="btn" href="https://www.linkedin.com/in/shahar-banu-788198219" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a class="btn" href="tel:+918848851630">Call 88488 51630</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap foot">
+  <p>Designed &amp; built by Shahar Banu · <span id="year"></span></p>
+  <a href="#top">Back to top ↑</a>
+</footer>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-label="Project details">
+    <button class="modal-x" aria-label="Close">×</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<div class="modal pal" id="palette" hidden>
+  <div class="pal-box" role="dialog" aria-modal="true" aria-label="Command palette">
+    <input id="pal-input" placeholder="Type a command… e.g. projects, dark, email" autocomplete="off" aria-label="Command">
+    <ul id="pal-list" role="listbox"></ul>
+    <p class="pal-foot">↑ ↓ to move · Enter to run · Esc to close</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+<script src="creative.js"></script>
+<script src="interactive.js"></script>
+</body>
+</html>

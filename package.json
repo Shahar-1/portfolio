@@ -1,0 +1,8 @@
+{
+  "name": "shahar-banu-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio of Shahar Banu, software engineer",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "license": "ISC"
+}
